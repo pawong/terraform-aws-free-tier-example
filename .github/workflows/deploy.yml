@@ -16,6 +16,9 @@ jobs:
     name: "Terraform"
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+    defaults:
+      run:
+        working-directory: "terraform/main"
 
     steps:
       - name: Configure AWS credentials
