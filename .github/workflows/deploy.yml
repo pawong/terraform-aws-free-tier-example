@@ -4,6 +4,7 @@ on:
   push:
     branches: ["master"]
   pull_request:
+    branches: ["**"]
 
 env:
   AWS_REGION: us-west-2
