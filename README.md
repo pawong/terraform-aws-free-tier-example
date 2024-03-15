@@ -16,5 +16,6 @@ Terraform AWS free tier only, free today, free tomorrow, free forever (or it won
 ```bash
 % terraform apply
 ```
+## Github Action Workflows
 
-https://terrateam.io/blog/aws-lambda-function-with-terraform
+`deploy.yml` - Run Terraform to init, fmt, plan and apply.
