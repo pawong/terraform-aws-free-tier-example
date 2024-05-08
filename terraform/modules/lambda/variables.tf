@@ -27,3 +27,8 @@ variable "iam_role_arn" {
   type        = string
   default     = ""
 }
+
+variable "api_gateway_execution_arn" {
+  description = "AWS API Gateway"
+  type        = string
+}
