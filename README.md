@@ -19,3 +19,11 @@ Terraform AWS free tier only, free today, free tomorrow, free forever (or it won
 ## Github Action Workflows
 
 `deploy.yml` - Run Terraform to init, fmt, plan and apply.
+
+## Pre-Commits
+
+Run manually:
+
+```bash
+% pre-commit run -a
+```
