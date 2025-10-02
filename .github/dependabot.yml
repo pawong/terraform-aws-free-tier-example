@@ -13,3 +13,5 @@ updates:
         update-types:
           - "minor"
           - "patch"
+    assignees:
+      - "pawong"
